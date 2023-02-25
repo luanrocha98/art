@@ -124,13 +124,13 @@ class L {
 					img.height = img.width / proportion; // Adjust image dimension by using the original proportion
 				
 				} else {
-					if(img.width > 0.7 * viewWidth) {
-						img.width = 0.7 * viewWidth;
+					if(img.width > 1 * viewWidth) {
+						img.width = 1 * viewWidth;
 						img.height = img.width;
 					}
 
-					if(img.height > 0.7 * viewHeight) {
-						img.height = 0.7 * viewHeight
+					if(img.height > 1 * viewHeight) {
+						img.height = 1 * viewHeight
 						img.width = img.height;
 					}
 

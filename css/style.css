@@ -39,7 +39,7 @@ html, body {
 	height: 55px;
 	position: relative;
 	box-shadow: 0 2px 2px -2px rgba(0,0,0,0.14), 0 3px 3px -2px rgba(0,0,0,0.12), 0 6px 5px -5px rgba(0,0,0,0.2);
-	color: #575757;
+	color: #2e2e2e;
 	padding: 0 10px 0 10px;
 	display: flex;
 	justify-content: center;
@@ -109,7 +109,7 @@ html, body {
 
 /* User's name */
 .user span {
-	margin-left: 5px;
+	margin-left: 25px;
 }
 
 /* Resets the default ul style */
@@ -131,7 +131,7 @@ html, body {
 }
 
 .navbar ul li.active {
-	background-color: rgba(0, 0, 0, 0.07);
+	background-color: #dddddd;
 }
 
 /* li after li style */
@@ -147,7 +147,7 @@ li +  li {
 	align-items: center;
 	cursor: pointer;
 	border-top: none !important;
-	padding: 5px;
+	padding: 20px;
 	font-size: 18px;
 	background-color: transparent;
 }
@@ -290,13 +290,13 @@ input:-webkit-autofill {
 	transition: opacity 0.2s, transform 0.2s, top 0.1s;
 	background-color: #FAFAFA;
 	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
-	border-radius: 10px;
+	/* border-radius: 10px; */
 	z-index: 10;
 	overflow-y: auto;
 	position: fixed;
 	width: 80%;
-	margin-left: 10%;
-	margin-right: 10%;
+	margin-left: 5%;
+	margin-right: 5%;
 	top: 10%;
 	left: 0;
 	min-height: 30vh;
@@ -307,8 +307,8 @@ input:-webkit-autofill {
 @media only screen and (min-width: 992px) {
 	.modal {
 		width: 60%;
-		margin-left: 20%;
-		margin-right: 20%;
+		margin-left: 5%;
+		margin-right: 5%;
 		max-height: 50vh;
 	}
 }
@@ -389,7 +389,7 @@ input:-webkit-autofill {
 
 /* Social network */
 .social-network {
-	padding: 5px;
+	padding: 8px;
 	border-radius: 5px;
 	border: 1px solid #A7A7A7;
 	color: #575757;
@@ -406,7 +406,7 @@ input:-webkit-autofill {
 
 /* Social network username */
 .social-network span {
-	margin-left: 5px;
+	margin-left: 8px;
 	font-weight: bold;
 }
 
@@ -423,16 +423,17 @@ input:-webkit-autofill {
 
 /* Artistic name */
 .artistic-name {
-	margin-top: 0;
-	margin-bottom: 0;
+	margin-top: 25px;
+	margin-bottom: 25px;
 	font-weight: bold;
 	font-size: 40px;
 }
 
 /* Slogan */
 .slogan {
-	margin-top: 0;
-	font-size: 20px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	font-size: 15px;
 }
 
 /* Name */
@@ -455,8 +456,8 @@ input:-webkit-autofill {
 
 /* Large profile image wrapper */
 .profile.large {
-	height: 250px;
-	width: 250px;
+	height: 200px;
+	width: 200px;
 }
 
 /* Profile image wrapper */
@@ -494,11 +495,11 @@ input:-webkit-autofill {
 
 /* Header cover */
 .cover {
-	background-image: url("../img/FooterArtboard 1.png");
-	background-repeat: no-repeat;
+	 background-image: url("../img/fundoArtboard 1 copy.png");  
+	/* background-repeat: no-repeat;  */
 	background-position: center;
-	background-color: #e2dd3f;
-	height: 40vh;
+	background-color: #d43232;
+	height: 20vh;
 	width: 100%;
 }
 
@@ -538,7 +539,11 @@ input:-webkit-autofill {
 	}
 
 	.cover {
-		height: 30vh;
+		height: 15vh;
+	}
+
+	.slogan {
+		font-size: 20px;
 	}
 
 	.overlay-cover .profile.large {
@@ -548,8 +553,8 @@ input:-webkit-autofill {
 
 	.social-network {
 		display: content;
-		height: 35px;
-		width: 35px;
+		height: 50px;
+		width: 50px;
 	}
 
 	.social-network span {
